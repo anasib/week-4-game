@@ -29,10 +29,10 @@ $(document).ready(function () {
         computerGuess = Math.floor(Math.random() * 101 + 19);
         console.log(computerGuess);
         $('#randomNumber').text(computerGuess);
-        num1;
-        num2;
-        num3;
-        num4;
+        num1 = Math.floor(Math.random() * 11 + 1);
+        num2 = Math.floor(Math.random() * 11 + 1);
+        num3 = Math.floor(Math.random() * 11 + 1);
+        num4 = Math.floor(Math.random() * 11 + 1);
         userTotal = 0;
         $('#finalTotal').text(userTotal);
     };
